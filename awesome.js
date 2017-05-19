@@ -19,11 +19,32 @@ const app = new Vue({
 		postlist: [
 		
 		new Post(
-				'First Post! Yay!',
+				'I just feel like I know you Rick...',
 				'https://google.com',
-				'An Author',
-				'https://unsplash.it/200',
-				 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi viverra euismod euismod. Nulla leo est, venenatis at fringilla eget, tincidunt sed justo. In efficitur dui odio, sit amet finibus sem hendrerit ut. Etiam vestibulum sem vel metus lobortis, vitae dictum metus sagittis. Nulla facilisi.'
+				'Kyle Poch',
+				'https://www.thememo.com/wp-content/uploads/2016/02/happy-birthday-rick-astley.jpg',
+				'All my life I\'ve just felt so close to you, Rick, like I understand you on a deeper level. We should meet up'
+				),
+		new Post(
+				'I\'ve always felt the same way',
+				'https://google.com',
+				'Byle Koch',
+				'https://www.thememo.com/wp-content/uploads/2016/02/happy-birthday-rick-astley.jpg',
+				'I don\'t understand, I\'ve always felt the same way. This is weird, we are all so similar'
+				),
+		new Post(
+				'I\'ve been searching for a long time',
+				'https://google.com',
+				'Marley\'s brother',
+				'https://www.thememo.com/wp-content/uploads/2016/02/happy-birthday-rick-astley.jpg',
+				'I think I\'ve found the answer. You have to believe me, they are cloning us to take over the world'
+				),
+		new Post(
+				'I\'ve been searching for a long time',
+				'https://google.com',
+				'Marley\'s brother',
+				'https://www.thememo.com/wp-content/uploads/2016/02/happy-birthday-rick-astley.jpg',
+				'I think I\'ve found the answer. You have to believe me, they are cloning us to take over the world'
 				),
 
 			
