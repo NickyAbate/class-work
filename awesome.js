@@ -36,7 +36,7 @@ const app = new Vue({
 				'I\'ve found it',
 				'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 				'Marley\'s brother',
-				'https://www.thememo.com/wp-content/uploads/2016/02/happy-birthday-rick-astley.jpg',
+				'https://upload.wikimedia.org/wikipedia/commons/3/38/Tucker_Albrizzi.jpg',
 				'They are cloning us. We are created by the UK to take over the world.'
 				),
 		new Post(
@@ -49,7 +49,7 @@ const app = new Vue({
 		new Post(
 				'Come Together!',
 				'https://www.youtube.com/watch?v=GM12Sda56jE',
-				'Ginger Jesus Man',
+				'Ginger Jesus',
 				'https://pics.onsizzle.com/jesus-was-a-ginger-thats-why-he-was-crucified-7405963.png',
 				'We need to take action! (https://www.youtube.com/watch?v=2gfRtgMWUgs)'
 				),

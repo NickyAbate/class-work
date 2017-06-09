@@ -7,6 +7,14 @@
 	<title>Rick Astley Fan Page</title>
 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css">
 	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+		.maybeorange{
+			color: #FF5733
+		}
+	</style>
+
+
 </head>
 	<body>
 	<div id="root">
@@ -19,7 +27,7 @@
 
 			      <div class="column"> <!-- search column -->
 
-			      	<h3 class="title">Search</h1>
+			      	<h3 class="title maybeorange">Search</h1>
 
 		      		<hr>
 
@@ -38,7 +46,7 @@
 
 		      	<div class="column is-two-thirds"> <!-- post column -->
 
-		      		<h3 class="title">Posts</h1>
+		      		<h3 class="title maybeorange">Rick Astley Fan Page</h1>
 		      		<hr>
 
 						<div v-for="post in filterlist">
@@ -59,7 +67,7 @@
 
 								<div class="media-content">
 
-						      		<div class="content">
+						      		<div class="content maybeorange">
 
 						      			<a :href="post.link">{{post.title}}</a>
 
@@ -74,13 +82,13 @@
 								        <div class="level-left">
 
 							          		<a class="level-item">
-							            		<span class="icon is-small"><i class="fa fa-reply"></i></span>
+							            		<span class="icon is-small maybeorange"><i class="fa fa-reply"></i></span>
 						          			</a>
 							          		<a class="level-item">
-								            	<span class="icon is-small"><i class="fa fa-retweet"></i></span>
+								            	<span class="icon is-small maybeorange"><i class="fa fa-retweet"></i></span>
 							          		</a>
 							          		<a class="level-item">
-								            	<span class="icon is-small"><i class="fa fa-heart"></i></span>
+								            	<span class="icon is-small maybeorange"><i class="fa fa-heart"></i></span>
 							          		</a>
 
 								        </div> <!-- end level-left -->
